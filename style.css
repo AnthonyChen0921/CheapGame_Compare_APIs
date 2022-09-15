@@ -1,0 +1,475 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Frank+Ruhl+Libre:wght@300&family=Lora:ital@1&family=Orbitron:wght@600&family=Righteous&family=Roboto+Slab:wght@500&display=swap');
+
+.major{
+  width: 50% ;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding-top: 150px;
+  overflow: hidden;
+  transition: .5s ease;
+}
+.minor{
+  width: 50% ;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding-top: 50px;
+  overflow: hidden;
+  transition: .5s ease;
+}
+.major:hover{
+  opacity: 0.85;
+  transition: 0.6s ease;
+}
+
+/* Create a sticky/fixed navbar */
+#navbar {
+    overflow: hidden;
+    padding: 80px 10px 25px 10px; /* Large padding which will shrink on scroll (using JS) */
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    position: fixed; /* Sticky/fixed navbar */
+    width: 100%;
+    top: 0; /* At the top */
+    z-index: 1;
+    background-image: linear-gradient(to right, #0a0a0a, #0a0a0a);
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+  }
+  
+
+/* Style the navbar links */
+#navbar a {
+    float: left;
+    color: #fafafa;
+    text-align: center;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+/* Style the logo */
+#navbar #logo{
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.4s;
+    color: #fafafa;
+}
+
+.navbar-left{
+    position: relative;
+    /* top: 30px; */
+    display: inline;
+    transition: 0.4s;
+}
+.fa-gamepad{
+    float: left;
+    position: relative;
+    top: 15px;
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.4s;
+    color: #fafafa;
+}
+.fa-user{
+    color: #0d0d0d;
+    font-size: 20px;
+}
+.fa-shopping-cart{
+    color: #0d0d0d;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+/* Links on mouse-over */
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    transition: 0.4s;
+}
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    position: relative;
+    background-color: #333;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #fafafa;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topright{
+    float: left;
+    color: #0a0a0a;
+    text-align: center;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+  }
+    .topright:hover {
+    background-color: black;
+    color: #ddd;
+    transition: 0.4s;
+}
+  
+  
+  /* Centered section inside the top navigation */
+  .topnav-centered a {
+    float: none;
+    position: absolute;
+    width: 20%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+
+  #navbar-right {
+    float: right;
+    position: relative;
+    top: 10px;
+  }
+
+  .title{
+    width:20%;
+    position: relative;
+    color: #fafafa;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Archivo Black', sans-serif;
+  }
+
+  .bg-light{
+      z-index: 2;
+  }
+
+
+/* ------------------side bar from w3school ----------------- */
+/* The side navigation menu */
+#mySidenavL {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 5; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+
+  #mySidenavR {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 5; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+
+  #totalprice{
+    color: #dbdbdb;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    font-family: 'Righteous', cursive;
+  }
+  .sidenav .btn-warning{
+    position:absolute;
+    top:40px;
+    right:60px;
+    size: 10%;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.4s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 36px;
+    margin-left: 60px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #all {
+    transition: 0.5s;
+  }
+  #cartins{
+    font-size: 5px;
+    transition: 0.4s;
+    padding: 8px 8px 8px 32px;
+    color: #fafafa;
+  }
+
+
+/* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
+@media screen and (max-width: 450px) {
+    .navbar-light{
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the nav bar at the top of the page */
+    }
+    #navbar {
+        padding: 150px 10px 10px 10px !important; 
+    }
+    #navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+        font-size: 50px;
+    }
+    #navbar-right {
+        float: none;
+    }
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .card-img-top{
+      width: 10px !important;
+      height: 20px !important;
+    }
+    .major{
+      width: 80%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+/* overlay */
+/* Hover image overlay slide from w3c: https://www.w3schools.com/howto/howto_css_image_overlay_slide.asp */
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(to right, #420707, #181514b4);
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+.card-img-top {
+  width: 100%;
+  object-fit: cover;
+}
+.col1:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.col2:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.col3:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.col4:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #ccc;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Mega Menu header, if needed */
+.dropdown-menu .header {
+  background: rgb(165, 165, 165);
+  padding: 16px;
+  color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+.imglink{
+  color: #dbdbdb;
+  text-decoration: none;
+  font-size: 25px;
+  transition: .5s ease;
+  opacity: 0.8;
+  font-family: 'Frank Ruhl Libre', serif;
+  text-align: center;
+}
+.imglink:hover{
+  color: #fd2d2d;
+  background-color: #333333;
+  border-radius: 5px;
+}
+
+
+
+#steamh1{
+  margin-top: 100px;
+  font-family: 'Orbitron', sans-serif;
+  margin-bottom: 60px;
+  text-align: center;
+}
+#steamh2{
+  margin-top: 150px;
+  margin-bottom: 60px;
+  border-radius: 5px;
+  color: #0a0a0a;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+#steamh3{
+  margin-top: 150px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: #0a0a0a;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+#steamh4{
+  margin-top: 150px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: #0a0a0a;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+.steamcontent{
+  font-family: 'Orbitron', sans-serif;
+  color: #0a0a0a;
+  margin-bottom: 20px;
+  font-family: 'Lora', serif;
+}
+.card-container{
+  font-family: 'Roboto Slab', serif;
+  transition: .5s ease;
+}
+.card-container .card:hover{
+  opacity: 0.9;
+  transition: .5s ease;
+  background-color: #8dccf1
+}
+.shadow-sm{
+  transition: .5s ease;
+}
+.shadow-sm:hover{
+  background-color: #0a7dc025
+}
+.secondary .card img{
+  overflow: hidden;
+  width: 80%;
+}
+.secondary .card{
+  font-family: 'Righteous', cursive;
+}
+
+/* footer */
+.resource{
+  position:relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 23px;
+  font-family: 'Libre Baskerville', serif;
+}
+.footertitle{
+  font-size: 18px;
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 20px;
+}
+.footertext{
+  font-size: 10px;
+  font-family: 'Libre Baskerville', serif;
+  text-decoration: none;
+  color: #f1f1f1;
+  display: block;
+  transition: .3s ease;
+  user-select: none;
+}
+.footertext:hover{
+  color: #8dccf1;
+}
+#contact{
+  font-size: 10px;
+}
+.terms{
+  font-size: 10px;
+  font-family: 'Libre Baskerville', serif;
+  transition: .3s ease;
+  user-select: none;
+}
+.terms:hover{
+  color: #8dccf1;
+  transition: .3s ease;
+  
+}

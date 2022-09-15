@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Game deal" content="Cheap game">
+    <title>Y1nGame</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" type="image/jpg" href="https://wustlcse204.github.io/10-final-project-individual-AnthonyChen0921/images/favicon.jpg">
+
+    <!--BS5 CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+    <!---Add my kit code to html-->
+    <script src="https://kit.fontawesome.com/5af96e6499.js" crossorigin="anonymous"></script> <link href="css/bootstrap.css" rel="stylesheet">   
+
+    <!---Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Italianno&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div id="all">
+      <!-- major nav bar -->
+        <div class="navbar-expand-lg" id="navbar">
+            <div class="row">
+                <div class="col">
+                    <div class="navbar-left" id="navbar-left">
+                        <i class="fas fa-gamepad"></i>
+                        <a onclick="openNavL()" href="#default" id="logo"><span style="color: red">Y1n</span>Ga<span style="color: rgb(51, 191, 247)">me</span></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="title">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="navbar-right" id="navbar-right">
+                        <!-- <i class="fas fa-user"></i> -->
+                        <a class = "Ncontent" href="#contact">Contact</a>
+                        <a class = "Ncontent" href="#contact">About</a>
+                    </div>
+                </div>     
+            </div>
+            
+        </div>
+    
+        <!-- minor navbar -->
+        <!-- All link navigates to https://www.g2a.com/ and its subsites-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fab fa-steam"></i>
+                      Video Games
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/games-c189">All games</a></li>
+                      <li><a class="dropdown-item" href="https://www.g2a.com/best-deals/trending-products">Trending products</a></li>
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/games-c189">Bestsellers</a></li>
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/games-c189?attributes=preorder">Preorders</a></li>
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/games-c189">Game by genre</a></li>
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/games-c189?min_price[min]=0.01">Game by price</a></li>
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/games-c189">Game by platform</a></li>
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/dlcs-c191">DLCs</a></li>
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/points-currencies-c1462">Currency&Points</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fab fa-playstation"></i>
+                      Hardware
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/computers-c1404?topbar=lvl2">PC</a></li>
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/video-game-consoles-c1750?topbar=lvl2">PlayStation</a></li>
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/microsoft-xbox-one-c1751?topbar=lvl2">Xbox</a></li>
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/electronics-c1278?query=Nintendo&topbar=lvl2">Nintendo</a></li>
+                      <li><a class="dropdown-item" href="https://www.g2a.com/search?query=msi">MSI</a></li>
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/virtual-reality-vr-c2033?topbar=lvl2">VR</a></li>
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/retro-gaming-consoles-c1838?topbar=lvl2">Retro Gaming</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fab fa-windows"></i>
+                      Software
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/operating-system-c3381">Operating System</a></li>
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/business-office-c2893">Business&Office</a></li>
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/antivirus-security-c2917">Antivirus&Secuity</a></li>
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/tools-c2938">Tools</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-gift"></i>
+                      Gift cards
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/psn-c1567">PSN</a></li>
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/xbox-live-c1568">Xbox</a></li>
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/nintendo-eshop-c1569">Nintendo</a></li>
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/steam-c1571">Steam</a></li>
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/blizzard-c1570">Blizzard</a></li>
+                      <li><a class="dropdown-item" href="https://www.apple.com/">Apple</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="fas fa-info-circle"></i>
+                      Subscriptions
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/xbox-live-gold-c1574">Xbox Live Gold</a></li>
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/xbox-game-pass-c3351">Xbox Game Pass</a></li>
+                      <li><a class="dropdown-item" href="https://www.g2a.com/category/playstation-plus-c1573">PlayStation Plus</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <i class="fas fa-user"></i>
+                <a href="#" class="topright">Admin</a>
+                <i class="fas fa-shopping-cart"></i>
+                <a onclick="openNavR()" href="#default" class="topright">Your Cart</a>
+                <!-- <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button type="button" class="btn btn-outline-dark">Go</button>
+                </form> -->
+              </div>
+            </div>
+        </nav>
+
+        <!-- sidebars -->
+        <div id="mySidenavL" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNavL()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div id="mySidenavR" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNavR()">&times;</a>
+            <button type="button" class="btn btn-warning btn-sm" onclick="clearcart()">Clear</button>
+            <!-- <div class="card m-4">
+              <img src="" class="card-img-top" alt="..." width="50" height="80">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text"></p>
+              </div>
+            </div> -->
+            <p class="pricecal" id="totalprice">Total: $0.00</p>
+        </div>
+    
+    
+        <!-- Main content  -->
+        
+        <!-- Slideshow container from bs5-->
+        <!-- Image retrieved from the official website in explore hyperlink -->
+        <!-- Hyperlinks navigate to the main site of each game-->
+        <div class="container major">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://image.api.playstation.com/vulcan/img/rnd/202011/0409/9kmtBsDqE5N8DSCw8aYadjVW.jpg" style="width:100%">
+                <div class="carousel-caption d-none d-md-block">
+                  <a class="imglink" href="https://hitman.com/global/">Explore</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://pbs.twimg.com/media/E05TVv7WQAct_wm?format=jpg&name=large" style="width:100%">
+                <div class="carousel-caption d-none d-md-block">
+                  <a class="imglink" href="https://www.residentevil.com/village/">Explore</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://miro.medium.com/max/2000/1*MiM8gv-dOmCnNOcTSXdVNQ.jpeg" style="width:100%">
+                <div class="carousel-caption d-none d-md-block">
+                  <a class="imglink" href="https://www.rockstargames.com/reddeadredemption/restricted-content/agegate/form?redirect=https%3A%2F%2Fwww.rockstargames.com%2Freddeadredemption%2F&options=&locale=en_us">Explore</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://gamingintel.com/wp-content/uploads/2021/09/Battlefield-2042-Open-Beta-Officially-Announced-Release-Date-Trailer.jpg" style="width:100%">
+                <div class="carousel-caption d-none d-md-block">
+                  <a class="imglink" href="https://www.ea.com/games/battlefield/battlefield-2042?setLocale=en-us">Explore</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://cdn.mos.cms.futurecdn.net/wiXUAjgJLJMc95FJBpshYN.jpg" style="width:100%">
+                <div class="carousel-caption d-none d-md-block">
+                  <a class="imglink" href="https://www.epicgames.com/store/en-US/p/far-cry-6">Explore</a>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        
+
+        
+        <div class="container mb-2" id="steamh1"><h1>Top deals in <span style="color: rgb(27, 130, 226)">Steam</span></h1></div>
+
+        <!-- Frame work of the card -->
+        <!-- all card info retreived from AJAX call using CheapShark Api: https://www.cheapshark.com/ -->
+        <!-- The detail button navigates back to the steam shop link powered by: https://store.steampowered.com/ --> 
+        <div class="container card-container">
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4  row-cols-xl-5 row-cols-xxl-6 g-3">
+              <!-- First card -->
+              <div class="col1">
+                <div class="card">
+                  <img src="" class="card-img-top" alt="..." width="50" height="80">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+              <!-- Second card -->
+              <div class="col2">
+                <div class="card">
+                  <img src="" class="card-img-top" alt="..." width="50" height="80">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+              <!-- Third Card -->
+              <div class="col3">
+                <div class="card">
+                  <img src="" class="card-img-top" alt="..." width="50" height="80">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+              <!-- 4th Card -->
+              <div class="col4">
+                <div class="card">
+                  <img src="" class="card-img-top" alt="..." width="50" height="80">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+              <!-- 5th Card -->
+              <div class="col5">
+                <div class="card">
+                  <img src="" class="card-img-top" alt="..." width="50" height="80">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+              <!-- 6th Card -->
+              <div class="col6">
+                <div class="card">
+                  <img src="" class="card-img-top" alt="..." width="50" height="80">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+              <!-- First card -->
+              <div class="col1">
+                <div class="card">
+                  <img src="" class="card-img-top" alt="..." width="50" height="80">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+              <!-- Second card -->
+              <div class="col2">
+                <div class="card">
+                  <img src="" class="card-img-top" alt="..." width="50" height="80">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+              <!-- Third Card -->
+              <div class="col3">
+                <div class="card">
+                  <img src="" class="card-img-top" alt="..." width="50" height="80">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+              <!-- 4th Card -->
+              <div class="col4">
+                <div class="card">
+                  <img src="" class="card-img-top" alt="..." width="50" height="80">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+              <!-- 5th Card -->
+              <div class="col5">
+                <div class="card">
+                  <img src="" class="card-img-top" alt="..." width="50" height="80">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+              <!-- 6th Card -->
+              <div class="col6">
+                <div class="card">
+                  <img src="" class="card-img-top" alt="..." width="50" height="80">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+    
+              <!-- First card -->
+              <div class="col1">
+                <div class="card">
+                  <img src="" class="card-img-top" alt="..." width="50" height="80">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+              <!-- Second card -->
+              <div class="col2">
+                <div class="card">
+                  <img src="" class="card-img-top" alt="..." width="50" height="80">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+              <!-- Third Card -->
+              <div class="col3">
+                <div class="card">
+                  <img src="" class="card-img-top" alt="..." width="50" height="80">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+              <!-- 4th Card -->
+              <div class="col4">
+                <div class="card">
+                  <img src="" class="card-img-top" alt="..." width="50" height="80">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+              <!-- 5th Card -->
+              <div class="col5">
+                <div class="card">
+                  <img src="" class="card-img-top" alt="..." width="50" height="80">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+              <!-- 6th Card -->
+              <div class="col6">
+                <div class="card">
+                  <img src="" class="card-img-top" alt="..." width="50" height="80">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+
+      <div class="container" id="steamh2"><h1>Tending Products</h1></div>
+
+      <div class="container">
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://cdn.mos.cms.futurecdn.net/eMQLEyo6b6YgNxkT9ePbDf.jpg" class="d-block w-100" alt="..." style="width:100%" onclick=openxbox()>
+            </div>
+            <div class="carousel-item">
+              <img src="https://media.cnn.com/api/v1/images/stellar/prod/211103102546-underscored-ps5-vs-ps5-digital-lead.jpg?q=w_4177,h_2350,x_0,y_0,c_fill" class="d-block w-100" alt="..." style="width:100%" onclick=openps5()>
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.gannett-cdn.com/presto/2021/07/15/USAT/1b18f7a2-c49c-479b-8dc3-36224dc31600-nintendo-switch-oled.png" class="d-block w-100" alt="..." style="width:100%" onclick=openns()>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      
+      <div class="container" id="steamh3"><h1>Subscription Plans</h1></div>
+      
+      <div class="container minor">
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm h-100">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Silver</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Everyday deals</li>
+                  <li>Up to 30% off on games</li>
+                  <li>Up to 10% off on consoles</li>
+                  <li>Notification on discount</li>
+                  <li>Monthly free game</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary h-100">
+              <div class="card-header py-3 border-primary">
+                <h4 class="my-0 fw-normal">Gold</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Silver included</li>
+                  <li>Up to 50% off on games</li>
+                  <li>Up to 30% off on consoles</li>
+                  <li>Everyday special deals</li>
+                  <li>Weekly free game</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-warning h-100">
+              <div class="card-header py-3 border-warning">
+                <h4 class="my-0 fw-normal">Platinum</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Silver and Gold included</li>
+                  <li>Up to 70% off on games</li>
+                  <li>Up to 40% off on consoles</li>
+                  <li>Free shipping to everwhere</li>
+                  <li>Platinum free game</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-warning">Get started</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container">
+        <h1 id="steamh4">2021 Bestsellers</h1>
+        <!-- content from -->
+        <!-- https://www.gamespot.com/articles/top-selling-games-and-consoles-of-october-2021-revealed-us/1100-6497969/ -->
+        <p class="steamcontent">The NPD Group has released its latest monthly sales report, revealing the best-selling games, systems, and accessories for October 2021, and providing an overall snapshot of the health of the US gaming business.</p>
+        <p class="steamcontent"> In total, spending across hardware, software, and accessories rose by 16% to $4.4 billion, which is a new record for October. For the first 10 months of the year, total spending hit $46.7 billion, which is up 12%.</p>
+
+        <p class="steamcontent"> For hardware specifically, the Nintendo Switch was the best-selling console for October in terms of unit and dollar sales alike. The launch of the Switch OLED model in October helped drive Switch sales overall, NPD said. The PS5 remains the best-selling console of 2021 by total dollars, but the Switch is the leader for units.
+
+        In October, total spending on hardware surged by 82% to $472 million, while year-to-date spending jumped 53% to $3.9 billion.
+          
+        Shifting to games, Far Cry 6 was the best-selling game overall in the US during October 2021, while Back 4 Blood finished the month at No. 2.
+          
+        Metroid: Dread, meanwhile, was the third best-selling game overall in the US. Launch-month sales for Dread were the highest ever for the Metroid series, while dollar sales for physical copies "nearly doubled" the previous record-holder, Metroid: Prime.</p>
+
+        
+      </div>
+
+      <div class="container secondary">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col1">
+            <div class="card h-100">
+              <img src="https://www.pcgamesn.com/wp-content/uploads/2021/10/far-cry-6-benchmark-cpu-bottleneck.jpg" class="card-img-top" alt="..." style="width:100%">
+              <div class="overlay">
+                <div class="text">
+                  <h4>Far Cry 6</h4>
+                  <!-- https://en.wikipedia.org/wiki/Far_Cry_6 -->
+                  <p class="gametitle">The world is divided into seven main regions with an array of terrain, ranging from urban areas and dense jungles, to mountain ranges and open oceans. Gameplay focuses on armed and close-quarters combat. Players are able to use a wide array of conventional weapons (such as sidearms, assault rifles, submachine guns, shotguns, light-machine guns, sniper rifles and grenade launchers). Firearms can be customized using materials found throughout the world.</p>
+                  
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-warning" onclick=openFC()>See Detail</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Far Cry 6</h5>
+                <p class="card-text">Far Cry 6 is an action-adventure first-person shooter game set in an open world environment which the player can navigate on foot or via using various land, water, and air vehicles.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col2">
+            <div class="card h-100">
+              <img src="https://digitalsportsinsider.com/wp-content/uploads/madden-nfl-22-ftr_1gsw8g037br6b1ahced24mrt39.png" class="card-img-top" alt="..." style="width:100%">
+              <div class="overlay">
+                <div class="text">
+                  <h4>Madden NFL 22</h4>
+                  <!-- https://en.wikipedia.org/wiki/Madden_NFL_22 -->
+                  <p class="gametitle">Madden NFL 22 is an American football video game based on the National Football League (NFL), developed by EA Tiburon and published by Electronic Arts. It is an instalment of the long-running Madden NFL series, and was released for Microsoft Windows, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S, and Stadia. Patrick Mahomes of the Kansas City Chiefs and Tom Brady of the Tampa Bay Buccaneers both make their second appearance on the cover, the first joint cover since Madden NFL 10.</p>
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-warning" onclick=openMF()>See Detail</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Madden NFL 22</h5>
+                <p class="card-text">Madden NFL 22 is where gameday happens. All-new features in Franchise include staff management, an enhanced scenario engine, and weekly strategy.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col3">
+            <div class="card h-100">
+              <img src="https://catwithmonocle.com/wp-content/uploads/2021/06/metroid-dread-artwork-01-3840x2160-1.jpg" class="card-img-top" alt="..." style="width:100%">
+              <div class="overlay">
+                <div class="text">
+                  <h4>Metroid: Dread</h4>
+                  <!-- https://en.wikipedia.org/wiki/Metroid_Dread -->
+                  <p class="gametitle">Metroid Dread is an action-adventure game developed by MercurySteam and Nintendo EPD, released on October 8, 2021, for the Nintendo Switch. Players control bounty hunter Samus Aran as she investigates the source of a mysterious transmission on the planet ZDR. It retains the side-scrolling gameplay of previous 2D Metroid games and incorporates stealth elements.</p>
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-warning" onclick=openMD()>See Detail</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Metroid: Dread</h5>
+                <p class="card-text">Metroid Dread is an action-adventure game in which players control bounty hunter Samus Aran as she explores the planet ZDR.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col4">
+            <div class="card h-100">
+              <img src="https://compass-ssl.xbox.com/assets/71/c0/71c0237d-b1bc-4b9c-8f54-d5c6a209157e.jpg?n=Back-4-Blood_GLP-Page-Hero-1084_1920x1080.jpg" class="card-img-top" alt="..." style="width:100%">
+              <div class="overlay">
+                <div class="text">
+                  <h4>Black 4 Blood</h4>
+                  <!-- https://en.wikipedia.org/wiki/Back_4_Blood -->
+                  <p class="gametitle">In the game's primary player versus environment game modes, players join a four person team of post-apocalypse survivors called Cleaners, who must fight their way through levels populated by zombie-like monsters called The Ridden. Teammates are either controlled by other players or AI bots depending on matchmaking preferences and player availability.. A new feature of Back 4 Blood is cards. At the start of each level, players need to build their deck with cards that adjust various elements of gameplay, such as modifying the player's health, damage, and stamina. </p>
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-warning" onclick=openB4B()>See Detail</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Black 4 Blood</h5>
+                <p class="card-text">Back 4 Blood is a thrilling cooperative first-person shooter from the creators of the critically acclaimed Left 4 Dead franchise.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+
+        <!-- Footer -->
+        <!-- All resources used in the website -->
+      <footer class="py3 my-4 bg-dark text-white text-center">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <h4 class="resource">@<span style="color: red">Y1n</span>Ga<span style="color: rgb(51, 191, 247)">me</span></h4>
+            </div>
+            <div class="col">
+              <h6 class="footertitle">Other Apps</h6>
+              <a class="footertext mt-3" href="https://www.cheapshark.com/">CheapShark</a>
+              <a class="footertext mt-3" href="https://www.gamersgate.com/">GamerGate</a>
+              <a class="footertext mt-3" href="https://store.steampowered.com/">Steam</a>
+              <a class="footertext mt-3" href="https://www.g2a.com/">G2A</a>
+            </div>
+            <div class="col">
+              <h6 class="footertitle">Infomation</h6>
+              <p class="footertext">About us</p>
+              <p class="footertext">Contact us</p>
+              <p class="footertext">Subscriptions</p>
+              <p class="footertext">FAQs</p>
+            </div>
+            <div class="col">
+              <h6 class="footertitle">Community</h6>
+              <p class="footertext">Facebook</p>
+              <p class="footertext">Discord</p>
+              <p class="footertext">Twitter</p>
+              <p class="footertext">Snapchat</p>
+              <p class="footertext">more ...</p>
+            </div>
+            <div class="col">
+              <h6 class="footertitle">Help</h6>
+              <p class="footertext">Support Hub</p>
+              <p class="footertext">Stay Safe</p>
+              <p class="footertext">Terms & Conditions</p>
+              <p class="footertext">Privacy & Cookies</p>
+              <p class="footertext">Returns & Refunds</p>
+            </div>
+        </div>  
+        <div class="row">
+          <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.8);">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <p class="terms">PRIVACY</p>
+                </div>
+                <div class="col">
+                  <p class="terms">TERMS & CONDITIONS</p>
+                </div>
+                <div class="col">
+                  <p class="terms">TERMS OF USE</p>
+                </div>
+                <div class="col">
+                  <p class="terms">Agreement</p>
+                </div>
+              </div>
+              <div class="row">
+                <p class="text-center text-muted" id="contact">© Y1nGame | 314-235-7737</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </footer>
+    
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
