@@ -1,4 +1,4 @@
-# CheapGame_Compare_APIs
+# Y1nGame
 
 
 Website is host here: https://anthonychen0921.github.io/CheapGame_Compare_APIs/
